@@ -1,11 +1,18 @@
 {
-  "name": "lit",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "webcomponents",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@lit/reactive-element": "^1.0.1",
+		"lit": "^2.0.2",
+		"lit-element": "^3.0.1",
+		"lit-html": "^2.0.1",
+		"tslib": "^2.3.1"
+	}
 }
